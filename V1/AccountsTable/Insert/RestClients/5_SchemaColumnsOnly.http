@@ -1,0 +1,7 @@
+POST http://localhost:3000/V4/AccountsTable/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "BSGroup": ""
+}

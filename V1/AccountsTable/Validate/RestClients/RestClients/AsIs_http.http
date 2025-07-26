@@ -1,0 +1,7 @@
+POST http://localhost:3000/V4/AccountsTable/Validate/Insert/http
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "BSGroup": ""
+}

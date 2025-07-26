@@ -1,0 +1,1 @@
+for %%f in (Schemas\*) do (echo file %%f)

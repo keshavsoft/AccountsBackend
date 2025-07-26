@@ -1,0 +1,11 @@
+POST http://localhost:3000/V4/ReceiptsTable/Insert/BulkAsIs
+Content-Type: application/json
+
+[
+  {
+    "AccountName": "",
+    "Date": "",
+    "Description": "",
+    "Amount": ""
+  }
+]

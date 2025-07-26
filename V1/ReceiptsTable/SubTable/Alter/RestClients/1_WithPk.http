@@ -1,0 +1,9 @@
+POST http://localhost:3000/V4/ReceiptsTable/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Date": "",
+  "Description": "",
+  "Amount": ""
+}
