@@ -5,7 +5,7 @@
             "field": "AccountName",
             "title": "Account Name",
             "isInput": true,
-             "filterControl":true
+            "filterControl": "select"
         },
         {
             "field": "Date",
@@ -33,7 +33,7 @@
             },
             "footerFormatter": "TotalFormatter",
             "ShowTotal": true,
-            "ShowDifference":true
+            "ShowDifference": true
         },
         {
             "field": "Debit",
@@ -47,7 +47,7 @@
             },
             "footerFormatter": "TotalFormatter",
             "ShowTotal": true,
-            "ShowDifference":true
+            "ShowDifference": true
         }
     ],
     "data": [],
