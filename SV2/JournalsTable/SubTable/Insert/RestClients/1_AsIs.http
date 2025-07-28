@@ -1,0 +1,10 @@
+POST http://localhost:3000/SV2/JournalsTable/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Date": "",
+  "Description": "",
+  "Credit": "",
+  "Debit": ""
+}
