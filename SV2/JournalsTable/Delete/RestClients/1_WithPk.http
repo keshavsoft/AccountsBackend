@@ -1,0 +1,1 @@
+DELETE http://localhost:3000/SV2/JournalsTable/Delete/WithPk/{pk}

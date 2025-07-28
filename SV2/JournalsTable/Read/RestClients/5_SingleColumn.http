@@ -1,0 +1,1 @@
+GET http://localhost:3000/SV2/JournalsTable/Read/SingleColumn/{Column name}
