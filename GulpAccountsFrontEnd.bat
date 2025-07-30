@@ -1,7 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
 
-REM --- STEP 1: Get next version folder ---
+REM --- STEP 1: api version ---
+
+call BatchFiles/generateApiVersion.bat
+
+REM --- STEP 2: Get next version folder ---
+
 call :getNextVersion NEXT_VERSION
 echo Next Version: %NEXT_VERSION%
 mkdir Public\%NEXT_VERSION%
