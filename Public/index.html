@@ -4,27 +4,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accounts Backend</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+        }
+
+        .navbar {
+            background: #fff;
+            color: #1976d2;
+            padding: 1.2rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 12px rgba(25, 118, 210, 0.10);
+            border-bottom: 2px solid #e3e8ee;
+        }
+
+        .navbar .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #1976d2;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar nav {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .navbar nav a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            padding: 0.5rem 1.2rem;
+            border-radius: 6px;
+            transition: background 0.2s, color 0.2s;
+            position: relative;
+        }
+
+        .navbar nav a:hover,
+        .navbar nav a:focus {
+            background: #e3e8ee;
+            color: #1565c0;
+        }
+
+        .navbar nav a.active {
+            background: #1976d2;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(25, 118, 210, 0.10);
+            padding: 2.5rem 2rem;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: box-shadow 0.2s, transform 0.2s;
+            border: 1px solid #e3e8ee;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
+            transform: translateY(-6px) scale(1.03);
+        }
+
+        .card h3 {
+            margin: 0 0 1rem 0;
+            color: #1976d2;
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+
+        .card p {
+            color: #555;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-size: 1.05rem;
+        }
+
+        /* ✅ Updated anchor styling as button */
+        .card a {
+            background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+            color: #fff;
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+            transition: background 0.2s, box-shadow 0.2s;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .card a:hover {
+            background: linear-gradient(90deg, #1565c0 60%, #1976d2 100%);
+            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+        }
+
+        footer {
+            color: #1976d2;
+            text-align: center;
+            padding: 1.2rem 0;
+            margin-top: 3rem;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 900px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <button onclick="getData()">Create File named Tasks</button>
-    <script>
-        async function getData() {
-            const url = "FileAsArray/Create/Tasks";
-            try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    throw new Error(`Response status: ${response.status}`);
-                }
+    <header class="navbar">
+        <div class="logo">Accounts FrontEnd</div>
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="./V1/JournalsTable/pages/JournalsTable/index.html">Journals</a>
+            <a href="./V1/JournalsTable/pages/OnArray/index.html">OnArray</a>
+            <a href="./V1/JournalsTable/pages/Calendar/index.html">Calendar</a>
+        </nav>
+    </header>
 
-                const json = await response.text();
-                console.log(json);
-            } catch (error) {
-                console.error(error.message);
-            };
-        };
-    </script>
+    <main class="container">
+        <div class="cards">
+            <div class="card">
+                <h3>Journals</h3>
+                <p>Create and manage journal entries with a dedicated <b>Tasks</b> file to track your progress.</p>
+                <a href="./V1/JournalsTable/pages/JournalsTable/index.html" class="btn">Click Here</a>
+            </div>
+            <div class="card">
+                <h3>OnArray</h3>
+                <p>Analyze and manipulate array-based data using powerful transformation tools.</p>
+                <a href="./V1/JournalsTable/pages/OnArray/index.html" class="btn">Click Here</a>
+            </div>
+            <div class="card">
+                <h3>Calendar</h3>
+                <p>View, plan, and manage your schedule with a streamlined calendar interface.</p>
+                <a href="./V1/JournalsTable/pages/Calendar/index.html" class="btn">Click Here</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="shadow p-4 mt-4 text-center d-print-none">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 mb-2">
+                <p class="mb-0">
+                    © Copyright <a class="text-dark text-decoration-underline fw-bold" href="https://KeshavSoft.com"
+                        target="_blank" style="color: #1976d2;">KeshavSoft</a> All Rights Reserved
+                </p>
+            </div>
+            <div class="col-12">
+                <ul class="list-inline mb-0">
+                    <span style="color: 1976d2 !important">Version 11-20</span>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    </main>
 </body>
+
+</head>
 
 </html>
