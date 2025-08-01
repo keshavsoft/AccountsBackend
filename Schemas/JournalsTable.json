@@ -27,7 +27,7 @@
             "type": "number",
             "isNumber": true,
             "filterControl": "select",
-            "ShowRupee": true,
+            "showRupee": true,
             "numberConfig": {
                 "step": "0.01",
                 "min": "0",
@@ -44,7 +44,7 @@
             "type": "number",
             "isNumber": true,
             "filterControl": "select",
-            "ShowRupee": true,
+            "showRupee": true,
             "numberConfig": {
                 "step": "0.01",
                 "min": "0",
