@@ -1,9 +1,0 @@
-POST http://localhost:3000/SV4/ReceiptsTable/Alter/WithPk/{pk}
-Content-Type: application/json
-
-{
-  "AccountName": "",
-  "Date": "",
-  "Description": "",
-  "Amount": ""
-}

@@ -1,7 +1,0 @@
-POST http://localhost:3000/SV4/AccountsTable/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
-Content-Type: application/json
-
-{
-  "AccountName": "",
-  "BSGroup": ""
-}

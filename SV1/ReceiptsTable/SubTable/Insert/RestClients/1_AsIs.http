@@ -1,9 +1,0 @@
-POST http://localhost:3000/SV4/ReceiptsTable/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
-Content-Type: application/json
-
-{
-  "AccountName": "",
-  "Date": "",
-  "Description": "",
-  "Amount": ""
-}

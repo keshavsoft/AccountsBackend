@@ -1,4 +1,4 @@
-POST http://localhost:3000/V4/JournalsTable/Insert/BulkAsIs
+POST http://localhost:3000/V1/JournalsTable/Insert/BulkAsIs
 Content-Type: application/json
 
 [

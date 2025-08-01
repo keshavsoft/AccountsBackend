@@ -1,7 +1,0 @@
-POST http://localhost:3000/V4/AccountsTable/SubTable/Insert/WithUuIdAndDT/{RowIndex}/{KeyName}
-Content-Type: application/json
-
-{
-  "AccountName": "",
-  "BSGroup": ""
-}

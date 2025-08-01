@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV4/JournalsTable/AggregateFunctions/Count
+GET http://localhost:3000/SV1/JournalsTable/AggregateFunctions/Count

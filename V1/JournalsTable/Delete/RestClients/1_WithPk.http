@@ -1,1 +1,1 @@
-DELETE http://localhost:3000/V4/JournalsTable/Delete/WithPk/{pk}
+DELETE http://localhost:3000/V1/JournalsTable/Delete/WithPk/{pk}

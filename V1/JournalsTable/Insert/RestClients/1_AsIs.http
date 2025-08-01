@@ -2,9 +2,9 @@ POST http://localhost:3000/V1/JournalsTable/Insert/AsIs
 Content-Type: application/json
 
 {
-  "AccountName": "Keshav",
+  "AccountName": "Chakri",
   "Date": "",
   "Description": "",
   "Credit": "",
-  "Debit": ""
+  "Debit": 5000
 }

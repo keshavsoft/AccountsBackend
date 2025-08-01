@@ -1,1 +1,4 @@
-GET http://localhost:3000/SV4/JournalsTable/Read/SelColumns
+POST http://localhost:3000/SV1/JournalsTable/Read/SelColumns
+Content-Type: application/json
+
+[ "exampleKey"]

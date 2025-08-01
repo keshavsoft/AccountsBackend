@@ -1,4 +1,4 @@
-POST http://localhost:3000/V4/JournalsTable/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
+POST http://localhost:3000/V1/JournalsTable/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
 Content-Type: application/json
 
 {

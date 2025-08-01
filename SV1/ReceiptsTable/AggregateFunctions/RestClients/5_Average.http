@@ -1,1 +1,0 @@
-GET http://localhost:3000/SV4/ReceiptsTable/AggregateFunctions/Average/{ColumnName}

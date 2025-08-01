@@ -1,1 +1,1 @@
-GET http://localhost:3000/V4/JournalsTable/Read/SingleColumn
+GET http://localhost:3000/V1/JournalsTable/Read/SingleColumn/{Column name}

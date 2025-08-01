@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV4/JournalsTable/SubTable/Read/AsIs/{RowIndex}/{KeyName}
+GET http://localhost:3000/SV1/JournalsTable/SubTable/Read/AsIs/{RowIndex}/{KeyName}

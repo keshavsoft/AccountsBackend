@@ -1,1 +1,1 @@
-GET http://localhost:3000/SV4/JournalsTable/AggregateFunctions/Max/{ColumnName}
+GET http://localhost:3000/SV1/JournalsTable/AggregateFunctions/Max/{ColumnName}

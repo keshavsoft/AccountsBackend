@@ -1,4 +1,4 @@
-POST http://localhost:3000/SV4/JournalsTable/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
+POST http://localhost:3000/SV1/JournalsTable/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
 Content-Type: application/json
 
 {

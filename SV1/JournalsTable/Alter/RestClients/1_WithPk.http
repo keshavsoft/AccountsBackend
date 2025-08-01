@@ -1,4 +1,4 @@
-POST http://localhost:3000/SV4/JournalsTable/Alter/WithPk/{pk}
+POST http://localhost:3000/SV1/JournalsTable/Alter/WithPk/{pk}
 Content-Type: application/json
 
 {

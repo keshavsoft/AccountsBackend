@@ -1,1 +1,4 @@
-GET http://localhost:3000/V4/JournalsTable/Read/SelColsAsArray
+POST http://localhost:3000/V1/JournalsTable/Read/SelColsAsArray
+Content-Type: application/json
+
+[ "AccountName","Debit"]

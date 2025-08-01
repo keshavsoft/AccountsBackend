@@ -1,1 +1,0 @@
-{"TableName":"AccountsTable","DataPath":"Data","Columns":["AccountName","BSGroup"],"ColumnsWithSchema":[{"field":"AccountName","title":"Account Name","unique":true,"type":"STRING","isInput":true},{"field":"BSGroup","title":"Balance Sheet Group","isInput":true}]}
