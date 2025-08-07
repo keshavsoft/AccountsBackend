@@ -1,0 +1,7 @@
+POST http://localhost:3000/SV2/MastersAddOns/SubTable/Insert/WithUuIdAndDT/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+  "AddOnService": "",
+  "AddOnRate": ""
+}

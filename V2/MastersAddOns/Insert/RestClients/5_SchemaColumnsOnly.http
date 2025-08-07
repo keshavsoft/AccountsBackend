@@ -1,0 +1,7 @@
+POST http://localhost:3000/V2/MastersAddOns/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "AddOnService": "",
+  "AddOnRate": ""
+}

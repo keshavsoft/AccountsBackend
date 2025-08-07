@@ -1,0 +1,1 @@
+{"TableName":"MastersAddOns","DataPath":"Data","Columns":["AddOnService","AddOnRate"],"ColumnsWithSchema":[{"field":"AddOnService","title":"AddOnService","unique":true,"type":"text","isInput":true},{"field":"AddOnRate","title":"AddOnRate","unique":false,"type":"number","isInput":true,"align":"right"}]}
