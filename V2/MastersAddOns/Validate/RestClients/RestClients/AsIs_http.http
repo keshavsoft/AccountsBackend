@@ -1,0 +1,7 @@
+POST http://localhost:3000/V2/MastersAddOns/Validate/Insert/http
+Content-Type: application/json
+
+{
+  "AddOnService": "",
+  "AddOnRate": ""
+}
