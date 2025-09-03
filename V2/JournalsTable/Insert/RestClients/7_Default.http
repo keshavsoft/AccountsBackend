@@ -1,0 +1,7 @@
+POST http://localhost:3000/V2/JournalsTable/Insert/Default
+Content-Type: application/json
+
+[
+  "sample1",
+  "sample2"
+]

@@ -1,0 +1,1 @@
+GET http://localhost:3000/V2/JournalsTable/SubTableOnArray/Read/AsIs/{RowIndex}/{KeyName}
