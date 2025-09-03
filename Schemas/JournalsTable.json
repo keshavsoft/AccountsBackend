@@ -6,7 +6,8 @@
             "title": "Account Name",
             "isInput": true,
             "filterControl": "select",
-            "autoFocus": true
+            "autoFocus": true,
+            "isAutoFocus": true
         },
         {
             "field": "Date",
