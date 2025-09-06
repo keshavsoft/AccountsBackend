@@ -1,0 +1,6 @@
+POST http://localhost:3000/V4/JournalsTable/GroupBy/SingleColLength
+Content-Type: application/json
+
+[
+	{ColumnsName}
+]

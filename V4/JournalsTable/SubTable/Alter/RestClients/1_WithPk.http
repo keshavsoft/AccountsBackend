@@ -1,0 +1,10 @@
+POST http://localhost:3000/V4/JournalsTable/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Date": "",
+  "Description": "",
+  "Credit": "",
+  "Debit": ""
+}
