@@ -1,0 +1,6 @@
+POST http://localhost:3000/SV5/JournalsTable/GroupBy/SingleColumnSum/{GroupByColumnName}
+Content-Type: application/json
+
+[
+	"SumColumnName"
+]
