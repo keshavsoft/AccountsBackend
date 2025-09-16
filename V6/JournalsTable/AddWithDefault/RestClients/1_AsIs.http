@@ -1,0 +1,2 @@
+POST http://localhost:3000/V6/JournalsTable/AddWithDefault/AsIs
+Content-Type: application/json

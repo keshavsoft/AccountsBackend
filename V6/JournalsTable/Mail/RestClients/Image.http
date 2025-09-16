@@ -1,0 +1,10 @@
+POST http://localhost:3000/V6/JournalsTable/Mail/Image
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Date": "",
+  "Description": "",
+  "Credit": "",
+  "Debit": ""
+}

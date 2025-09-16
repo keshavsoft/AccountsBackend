@@ -1,0 +1,4 @@
+POST http://localhost:3000/SV6/JournalsTable/Filter/ByBody
+Content-Type: application/json
+
+{"inKey":"element.","inValue":""}
