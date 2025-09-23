@@ -15,12 +15,8 @@
             "type": "number",
             "isNumber": true,
             "filterControl": "select",
-            "showRupee": true,
-            "numberConfig": {
-                "step": "0.1",
-                "min": "0",
-                "max": ""
-            }
+            "showRupee": false
+            
         }
     ],
     "data": [],
