@@ -13,6 +13,7 @@
         {
             "field": "Date",
             "title": "Date",
+            "type": "date",
             "isDate": true,
             "dateConfig": {
                 "min": "2025-07-01",

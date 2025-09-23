@@ -1,0 +1,7 @@
+POST http://localhost:3000/SV7/AccountNames/SubTable/Alter/WithPk/{RowPk}/{KeyName}/{pk}
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Mobile": ""
+}

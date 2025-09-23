@@ -1,2 +1,0 @@
-POST http://localhost:3000/V3/JournalsTable/Insert/OnlyDefault
-Content-Type: application/json

@@ -1,2 +1,0 @@
-POST http://localhost:3000/SV2/JournalsTable/AddWithDefault/AsIs
-Content-Type: application/json

@@ -1,0 +1,1 @@
+DELETE http://localhost:3000/SV7/JournalsTable/SubTable/Delete/WithPk/{RowPk}/{KeyName}/{Key}

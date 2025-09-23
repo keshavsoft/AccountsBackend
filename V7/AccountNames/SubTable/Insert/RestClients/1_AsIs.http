@@ -1,0 +1,7 @@
+POST http://localhost:3000/V7/AccountNames/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Mobile": ""
+}

@@ -1,0 +1,1 @@
+DELETE http://localhost:3000/SV7/AccountNames/SubTableOnObj/Delete/WithPk/{RowPk}/{KeyName}/{Key}

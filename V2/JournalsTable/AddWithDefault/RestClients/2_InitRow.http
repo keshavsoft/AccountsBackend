@@ -1,4 +1,0 @@
-POST http://localhost:3000/V2/JournalsTable/AddWithDefault/InitRow/{Key}
-Content-Type: application/json
-
-{ "ColumnName": "Value" }

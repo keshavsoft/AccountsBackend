@@ -1,0 +1,7 @@
+POST http://localhost:3000/V7/AccountNames/Insert/SchemaColumnsOnly
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Mobile": ""
+}

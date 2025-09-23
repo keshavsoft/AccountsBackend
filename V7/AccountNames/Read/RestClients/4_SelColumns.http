@@ -1,0 +1,4 @@
+POST http://localhost:3000/V7/AccountNames/Read/SelColumns
+Content-Type: application/json
+
+[ "exampleKey"]

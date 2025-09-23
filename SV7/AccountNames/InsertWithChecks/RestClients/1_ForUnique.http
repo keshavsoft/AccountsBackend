@@ -1,0 +1,7 @@
+POST http://localhost:3000/SV7/AccountNames/InsertWithChecks/ForUnique
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Mobile": ""
+}

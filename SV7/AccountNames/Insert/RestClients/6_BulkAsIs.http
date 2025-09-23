@@ -1,0 +1,9 @@
+POST http://localhost:3000/SV7/AccountNames/Insert/BulkAsIs
+Content-Type: application/json
+
+[
+  {
+    "AccountName": "",
+    "Mobile": ""
+  }
+]
