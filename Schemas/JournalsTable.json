@@ -7,7 +7,8 @@
             "isInput": true,
             "filterControl": "select",
             "autoFocus": true,
-            "isAutoFocus": true
+            "isAutoFocus": true,
+            "isDataList": true
         },
         {
             "field": "Date",
