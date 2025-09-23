@@ -1,0 +1,28 @@
+{
+    "tableName": "AccountNames",
+    "columns": [
+        {
+            "field": "AccountName",
+            "title": "Account Name",
+            "isInput": true,
+            "filterControl": "select",
+            "autoFocus": true,
+            "isAutoFocus": true
+        },
+        {
+            "field": "Mobile",
+            "title": "Mobile",
+            "type": "number",
+            "isNumber": true,
+            "filterControl": "select",
+            "showRupee": true,
+            "numberConfig": {
+                "step": "0.1",
+                "min": "0",
+                "max": ""
+            }
+        }
+    ],
+    "data": [],
+    "Vertical": []
+}
