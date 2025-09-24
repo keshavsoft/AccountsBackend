@@ -1,6 +1,8 @@
 {
     "Tables": [
         "JournalsTable",
-        "AccountNames"
+        "AccountNames",
+        "ReceiptsTable",
+        "PaymentsTable"
     ]
 }
